@@ -41,6 +41,6 @@ jobs:
           FLOWBASE_API_URL: ${{ vars.FLOWBASE_API_URL }}
           FLOWBASE_OAUTH_URL: ${{ vars.FLOWBASE_OAUTH_URL }}
           FLOWBASE_APP_ID: ${{ vars.FLOWBASE_APP_ID }}
-      - run: npm publish
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
