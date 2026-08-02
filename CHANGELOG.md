@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/flowbase-co/flowbase-cli/compare/cli-v0.2.1...cli-v0.2.2) (2026-08-02)
+
+
+### Bug Fixes
+
+* publish scoped package as public to npm ([c7e7297](https://github.com/flowbase-co/flowbase-cli/commit/c7e7297f25488bd970a72172a94e3c2e5f0a112c))
+
 ## [0.2.1](https://github.com/flowbase-co/flowbase-cli/compare/cli-v0.2.0...cli-v0.2.1) (2026-08-02)
 
 
