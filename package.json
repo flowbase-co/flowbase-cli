@@ -1,0 +1,29 @@
+{
+  "name": "@flowbase-co/cli",
+  "version": "0.1.0",
+  "description": "CLI tool for installing Flowbase components",
+  "bin": {
+    "flowbase": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "framer-motion": "^12.43.0",
+    "opentype.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
