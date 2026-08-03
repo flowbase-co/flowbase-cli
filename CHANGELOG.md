@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/flowbase-co/flowbase-cli/compare/cli-v0.2.2...cli-v0.2.3) (2026-08-03)
+
+
+### Bug Fixes
+
+* use correct Windows start command syntax in browser auth ([b659a4c](https://github.com/flowbase-co/flowbase-cli/commit/b659a4cd6c601e8c5f0784d814c091bcb5ff52b5))
+
 ## [0.2.2](https://github.com/flowbase-co/flowbase-cli/compare/cli-v0.2.1...cli-v0.2.2) (2026-08-02)
 
 
