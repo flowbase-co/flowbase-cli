@@ -71,12 +71,14 @@ function openBrowser(url: string): void {
     platform === "darwin"
       ? `open "${url}"`
       : platform === "win32"
-        ? `start "${url}"`
+        ? `start "" "${url}"`
         : `xdg-open "${url}"`;
+
+  console.log(`If the browser doesn't open, visit:\n${url}`);
 
   exec(cmd, (error) => {
     if (error) {
-      console.error(`Failed to open browser. Please open this URL manually:\n${url}`);
+      console.error(`Failed to open browser automatically.`);
     }
   });
 }
